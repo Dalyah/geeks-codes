@@ -9,7 +9,7 @@ main_page_head = '''
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Fresh Tomatoes!</title>
+    <title>Fresh Movies!</title>
 
     <!-- Bootstrap 3 -->
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
@@ -55,6 +55,10 @@ main_page_head = '''
             left: 0;
             top: 0;
             background-color: white;
+        }
+        .footer {
+            background-color: black;
+            color: white;
         }
     </style>
     <script type="text/javascript" charset="utf-8">
@@ -107,13 +111,24 @@ main_page_content = '''
       <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <a class="navbar-brand" href="#">Fresh Tomatoes Movie Trailers</a>
+            <a class="navbar-brand" href="#">Fresh Movie Trailers</a>
           </div>
         </div>
       </div>
     </div>
     <div class="container">
       {movie_tiles}
+    </div>
+    <br><br><br>
+    <!-- Footer -->
+    <div class="container">
+      <div class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Developed with love &copy; Dalyah</a>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
